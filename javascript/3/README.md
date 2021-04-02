@@ -19,10 +19,10 @@ Object.defineProperty(person,'hair',{
     value: 'black',
     enumerable:true
 })
-Object.prototype.leftHand = funtion(){
+Object.prototype.leftHand = function(){
     console.log('左手')
 }
-Object.prototype.rightHand = funtion(){
+Object.prototype.rightHand = function(){
     console.log('右手')
 }
 
